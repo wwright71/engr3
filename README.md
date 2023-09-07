@@ -93,7 +93,7 @@ while True:
 
 
 
-## CircuitPython_LCD
+## Servo Button Control
 
 ### Description & Code
 
