@@ -133,9 +133,7 @@ while True:
 ```
 
 ### Evidence
-
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
-
+https://github.com/wwright71/engr3/blob/main/media/Servo_Button_Wiring.png?raw=true
 ### Wiring
 
 ### Reflection
