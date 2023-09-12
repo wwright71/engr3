@@ -135,7 +135,7 @@ while True:
 ### Evidence
 
 ### Wiring
-(https://github.com/wwright71/engr3/blob/main/media/Servo_Button_Wiring.png?raw=true)
+[(https://github.com/wwright71/engr3/blob/main/media/Servo_Button_Wiring.png?raw=true)](https://github.com/wwright71/engr3/blob/main/media/Servo_Button_Wiring.png?raw=true)
 ### Reflection
 Searching online really helped me when I was stuck, especially with finding code.
 
