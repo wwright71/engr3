@@ -157,6 +157,8 @@ I had a lot of trouble making my code and wiring, Searching online really helped
 
 ^ Link to a site I found helpful for coding ^
 
+I also used https://ezgif.com/video-to-gif/ezgif-4-736f9f4571.mp4 to create gifs for this assignment which was very helpful for making my engineering notebook.
+
 
 
 INDENTATION IS VERY IMPORTANT!!!
