@@ -135,19 +135,29 @@ while True:
     
     time.sleep(0.1) # sleep for debounce
 
-
+  +-
 ```
 
 ### Evidence
-https://github.com/wwright71/engr3/blob/main/media/ezgif.com-video-to-gif.gif?raw=true
+![com-vido-to-gif (1)](https://github.com/wwright71/engr3/blob/main/media/ezgif.com-video-to-gif.gif?raw=true)
+
+
+
+
 ### Wiring
-[(https://github.com/wwright71/engr3/blob/main/media/Servo_Button_Wiring.png?raw=true)](https://github.com/wwright71/engr3/blob/main/media/Servo_Button_Wiring.png?raw=true)
+![servo wiring ](https://github.com/wwright71/engr3/blob/main/media/Servo_Button_Wiring.png?raw=true)](https://github.com/wwright71/engr3/blob/main/media/Servo_Button_Wiring.png?raw=true)
+
+
+
+
 ### Reflection
-Searching online really helped me when I was stuck, especially with finding code.
+I had a lot of trouble making my code and wiring, Searching online really helped me when I was stuck, especially with finding code.
 
 (https://learn.adafruit.com/multi-tasking-with-circuitpython/buttons)
 
 ^ Link to a site I found helpful for coding ^
+
+
 
 INDENTATION IS VERY IMPORTANT!!!
 
