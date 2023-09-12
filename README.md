@@ -97,6 +97,12 @@ while True:
 
 ### Description & Code
 
+1. Get a 180° micro servo to slowly sweep back and forth between 0 and 180°.  
+
+2. Spicy part: Now control the servo with 2 buttons. 
+
+     _The servo only moves if you are pushing a button._
+
 ```python
 import time
 import board
