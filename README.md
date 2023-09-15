@@ -97,6 +97,12 @@ while True:
 
 ### Description & Code
 
+1. Get a 180° micro servo to slowly sweep back and forth between 0 and 180°.  
+
+2. Spicy part: Now control the servo with 2 buttons. 
+
+     _The servo only moves if you are pushing a button._
+
 ```python
 import time
 import board
@@ -129,17 +135,33 @@ while True:
     
     time.sleep(0.1) # sleep for debounce
 
-
+  +-
 ```
 
 ### Evidence
+![com-vido-to-gif (1)](https://github.com/wwright71/engr3/blob/main/media/ezgif.com-video-to-gif.gif?raw=true)
 
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
+
+
 
 ### Wiring
+![servo wiring ](https://github.com/wwright71/engr3/blob/main/media/Servo_Button_Wiring.png?raw=true)](https://github.com/wwright71/engr3/blob/main/media/Servo_Button_Wiring.png?raw=true)
+
+
+
 
 ### Reflection
+I had a lot of trouble making my code and wiring, Searching online really helped me when I was stuck, especially with finding code.
 
+(https://learn.adafruit.com/multi-tasking-with-circuitpython/buttons)
+
+^ Link to a site I found helpful for coding ^
+
+I also used https://ezgif.com/video-to-gif/ezgif-4-736f9f4571.mp4 to create gifs for this assignment which was very helpful for making my engineering notebook.
+
+
+
+INDENTATION IS VERY IMPORTANT!!!
 
 
 
