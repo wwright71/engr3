@@ -169,7 +169,7 @@ INDENTATION IS VERY IMPORTANT!!!
 ## Distance Sensor
 
 ### Description & Code
-
+```python
 import time
 import board
 import adafruit_hcsr04  
@@ -245,3 +245,5 @@ while True:
 ![image](https://github.com/wwright71/engr3/assets/143732572/c0f8364a-3fe6-4d4d-8f27-97105b53e2a5)
 
 ### Reflection
+During this assignment I had trouble using the map() function so here is a helpful guide for using it.
+https://docs.circuitpython.org/projects/simpleio/en/latest/api.html#simpleio.map_range
