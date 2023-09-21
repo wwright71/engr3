@@ -245,4 +245,3 @@ while True:
 ![image](https://github.com/wwright71/engr3/assets/143732572/c0f8364a-3fe6-4d4d-8f27-97105b53e2a5)
 
 ### Reflection
-![com-vido-to-gif (2)](https://im.ezgif.com/tmp/ezgif-1-247cd73be1.gif)
