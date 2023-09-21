@@ -171,15 +171,10 @@ INDENTATION IS VERY IMPORTANT!!!
 ### Description & Code
 
 import time
-
 import board
-
 import adafruit_hcsr04  
-
 from rainbowio import colorwheel
-
 import neopixel 
-
 import simpleio
 
 sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D5, echo_pin=board.D6)
@@ -206,15 +201,10 @@ def rainbow_cycle(wait):
         time.sleep(wait)
 
 RED = (255, 0, 0)
-
 YELLOW = (255, 150, 0)
-
 GREEN = (0, 255, 0)
-
 CYAN = (0, 255, 255)
-
 BLUE = (0, 0, 255)
-
 PURPLE = (180, 0, 255)
 
 while True:
