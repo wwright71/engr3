@@ -242,5 +242,6 @@ while True:
 ### Evidence
 
 ### Wiring
-![servo wiring ](https://github.com/wwright71/engr3/blob/main/media/Servo_Button_Wiring.png?raw=true)](https://github.com/wwright71/engr3/blob/main/Screenshot%202023-09-21%20110154.png?raw=true)
+![image](https://github.com/wwright71/engr3/assets/143732572/c0f8364a-3fe6-4d4d-8f27-97105b53e2a5)
+
 ### Reflection
