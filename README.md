@@ -237,10 +237,10 @@ while True:
         print("Retrying!")
 
     time.sleep(0.1)
-
+```
 
 ### Evidence
-
+![ezgif com-video-to-gif (2)](https://github.com/wwright71/engr3/blob/main/ezgif.com-video-to-gif%20(1).gif?raw=true)
 ### Wiring
 ![image](https://github.com/wwright71/engr3/assets/143732572/c0f8364a-3fe6-4d4d-8f27-97105b53e2a5)
 
