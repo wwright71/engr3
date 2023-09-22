@@ -169,6 +169,16 @@ INDENTATION IS VERY IMPORTANT!!!
 ## Distance Sensor
 
 ### Description & Code
+
+1. Use the HC-SR04 to measure the distance to an object and print that out to your serial monitor or LCD in cm.
+   
+2. Next, you will get the neopixel to turn red when your object is less than 5cm, and green when its 35cm.  Ignore the blue and 20cm for now, let's just keep it simple.
+
+3. For your final version of this code, you'll smoothly shift the color of the onboard neopixel, corresponding to the distance, according to the graphic below.
+
+     1. (Neopixel should stay red when below 5cm and green when above 35cm)
+
+
 ```python
 import time
 import board
@@ -247,3 +257,4 @@ while True:
 ### Reflection
 During this assignment I had trouble using the map() function so here is a helpful guide for using it.
 https://docs.circuitpython.org/projects/simpleio/en/latest/api.html#simpleio.map_range
+Another issue I ran into was indentation. This code uses a lot of "if" commands and loops, so it is very important that you indent everything correctly otherwise the code will not work. I had 4 separate times where I had the wrong line either indented too much or not indented enough and it drove me insane, SO PLEASE MAKE SURE YOU INDENT!!!!!!
