@@ -301,7 +301,4 @@ while True:
 ![image](https://github.com/wwright71/engr3/assets/143732572/c0f8364a-3fe6-4d4d-8f27-97105b53e2a5)
 
 ### Reflection
-During this assignment I had trouble using the map() function so here is a helpful guide for using it.
-https://docs.circuitpython.org/projects/simpleio/en/latest/api.html#simpleio.map_range
-Another issue I ran into was indentation. This code uses a lot of "if" commands and loops, so it is very important that you indent everything correctly otherwise the code will not work. I had 4 separate times where I had the wrong line either indented too much or not indented enough and it drove me insane, SO PLEASE MAKE SURE YOU INDENT!!!!!!
 
