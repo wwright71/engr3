@@ -258,3 +258,50 @@ while True:
 During this assignment I had trouble using the map() function so here is a helpful guide for using it.
 https://docs.circuitpython.org/projects/simpleio/en/latest/api.html#simpleio.map_range
 Another issue I ran into was indentation. This code uses a lot of "if" commands and loops, so it is very important that you indent everything correctly otherwise the code will not work. I had 4 separate times where I had the wrong line either indented too much or not indented enough and it drove me insane, SO PLEASE MAKE SURE YOU INDENT!!!!!!
+
+
+
+
+
+
+## Motor Control
+
+### Description & Code
+
+1. Wire up a 6v battery pack to this circuit with a motor.
+
+2. Write Python code to make the motor speed up and slow down, based on input from a potentiometer.
+ 
+
+```python
+# SPDX-FileCopyrightText: 2018 Anne Barela for Adafruit Industries
+#
+# SPDX-License-Identifier: MIT
+
+import time
+import board
+from analogio import AnalogIn
+import pwmio 
+from digitalio import DigitalInOut
+
+potentiometer = AnalogIn(board.A1)  # potentiometer connected to A1, power & ground
+motor = pwmio.PWMOut(board.D3)
+
+while True:
+
+    print(potentiometer.value)      # Display value
+    time.sleep(0.25)                   # Wait a bit before checking all againng all again
+    motor.duty_cycle = potentiometer.value
+
+```
+
+### Evidence
+![ezgif com-video-to-gif (3)]([https://github.com/wwright71/engr3/blob/main/ezgif.com-video-to-gif%20(1).gif?raw=true](https://im.ezgif.com/tmp/ezgif-1-8104bb850d.gif)
+### Wiring
+![image](https://github.com/wwright71/engr3/assets/143732572/c0f8364a-3fe6-4d4d-8f27-97105b53e2a5)
+
+### Reflection
+During this assignment I had trouble using the map() function so here is a helpful guide for using it.
+https://docs.circuitpython.org/projects/simpleio/en/latest/api.html#simpleio.map_range
+Another issue I ran into was indentation. This code uses a lot of "if" commands and loops, so it is very important that you indent everything correctly otherwise the code will not work. I had 4 separate times where I had the wrong line either indented too much or not indented enough and it drove me insane, SO PLEASE MAKE SURE YOU INDENT!!!!!!
+
