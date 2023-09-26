@@ -166,17 +166,95 @@ INDENTATION IS VERY IMPORTANT!!!
 
 
 
-## NextAssignment
+## Distance Sensor
 
 ### Description & Code
 
-```python
-Code goes here
+1. Use the HC-SR04 to measure the distance to an object and print that out to your serial monitor or LCD in cm.
+   
+2. Next, you will get the neopixel to turn red when your object is less than 5cm, and green when its 35cm.  Ignore the blue and 20cm for now, let's just keep it simple.
 
+3. For your final version of this code, you'll smoothly shift the color of the onboard neopixel, corresponding to the distance, according to the graphic below.
+
+     1. (Neopixel should stay red when below 5cm and green when above 35cm)
+
+
+```python
+import time
+import board
+import adafruit_hcsr04  
+from rainbowio import colorwheel
+import neopixel 
+import simpleio
+
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D5, echo_pin=board.D6)
+
+pixel_pin = board.NEOPIXEL
+num_pixels = 1
+
+pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=0.3, auto_write=False)
+
+def color_chase(color, wait):
+    for i in range(num_pixels):
+        pixels[i] = color
+        time.sleep(wait)
+        pixels.show()
+    time.sleep(0.5)
+
+
+def rainbow_cycle(wait):
+    for j in range(255):
+        for i in range(num_pixels):
+            rc_index = (i * 256 // num_pixels) + j
+            pixels[i] = colorwheel(rc_index & 255)
+        pixels.show()
+        time.sleep(wait)
+
+RED = (255, 0, 0)
+YELLOW = (255, 150, 0)
+GREEN = (0, 255, 0)
+CYAN = (0, 255, 255)
+BLUE = (0, 0, 255)
+PURPLE = (180, 0, 255)
+
+while True:
+    try:
+
+        print((sonar.distance,))
+        if (sonar.distance <= 5.0):
+            blue = 0
+            green = 0
+            red = 255
+
+        if (sonar.distance >= 5.0) and (sonar.distance < 20.0):
+            green = 0
+            blue = simpleio.map_range(sonar.distance,5.0,20.0,0.0,255.0)
+            red = simpleio.map_range(sonar.distance,5.0,20.0,255.0,0.0)
+
+        if (sonar.distance >= 20) and (sonar.distance <35):
+            red = 0
+            green = simpleio.map_range(sonar.distance,20.0,35.0,0.0,255.0)
+            blue = simpleio.map_range(sonar.distance,20.0,35.0,255.0,0.0)
+        if (sonar.distance >=35):
+            red = 0
+            blue = 0
+            green = 255
+        print("red =",red," green = ",green," blue = ",blue)    
+        pixels[0] = (red,green,blue)
+        pixels.show()
+    
+    except RuntimeError:
+        print("Retrying!")
+
+    time.sleep(0.1)
 ```
 
 ### Evidence
-
+![ezgif com-video-to-gif (2)](https://github.com/wwright71/engr3/blob/main/ezgif.com-video-to-gif%20(1).gif?raw=true)
 ### Wiring
+![image](https://github.com/wwright71/engr3/assets/143732572/c0f8364a-3fe6-4d4d-8f27-97105b53e2a5)
 
 ### Reflection
+During this assignment I had trouble using the map() function so here is a helpful guide for using it.
+https://docs.circuitpython.org/projects/simpleio/en/latest/api.html#simpleio.map_range
+Another issue I ran into was indentation. This code uses a lot of "if" commands and loops, so it is very important that you indent everything correctly otherwise the code will not work. I had 4 separate times where I had the wrong line either indented too much or not indented enough and it drove me insane, SO PLEASE MAKE SURE YOU INDENT!!!!!!
