@@ -302,6 +302,27 @@ while True:
 
 ### Reflection
 
+## Onshape_Assignment_The_Hanger
+
+### Assignment Description
+
+Using the images provided create the part in Onshape, then set the correct measurements and material 
+
+### Evidence
+
+![image](https://github.com/wwright71/engr3/assets/143732572/eea89c57-03fc-4c96-bff1-afa0eb567833)
+![image](https://github.com/wwright71/engr3/assets/143732572/9edb5fa3-f1d8-4431-8ba5-efcf42dc123e)
+![image](https://github.com/wwright71/engr3/assets/143732572/81221293-ce5c-4d69-9f92-20a14c93c8b3)
+
+### Part Link 
+
+https://cvilleschools.onshape.com/documents/547e5da0936915c8f3a4169a/w/a8f0df700954ea780c5fcdcc/e/66277b2755306290ad869600
+
+### Reflection
+Overall, this assignment was very simple, it only had one image and it was completely symmetrical. This allowed me to make one-half of the assignment and then mirror all of it over, actively cutting my work time in half. My favorite past of this assignment was mirroring over everything at the end and my least favorite was creating the curved line in the stretch since it took multiple different steps to do.
+&nbsp;
+
+
 ## Onshape_Assignment_Swing_Arm
 
 ### Assignment Description
@@ -328,6 +349,6 @@ while True:
 https://cvilleschools.onshape.com/documents/ac4b93d873400ee95a17c509/w/fe7c10129bcfea8a546af52d/e/7f25961cc17f1d8061031a8f
 
 ### Reflection
-Overall, before I started this assignment I was very scared because it looked quite complex, but once I got started and set up my variables the assignment wasn't very difficult. Things I do want to look back on were to make sure and check each picture and all the measurements twice because I did mix up a measurement where I was supposed to put a variable. Another thing that you need to do is make sure your material is set to the correct thing and it correlates to the assignment
+Overall, before I started this assignment I was very scared because it looked quite complex, but once I got started and set up my variables the assignment wasn't very difficult. Things I do want to look back on were to make sure and check each picture and all the measurements twice because I did mix up a measurement where I was supposed to put a variable. Another thing that you need to do is make sure your material is set to the correct thing and it correlates to the assignment.
 &nbsp;
 
