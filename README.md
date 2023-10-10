@@ -302,6 +302,8 @@ while True:
 
 ### Reflection
 
+Make sure to check your wiring with one of the teachers when wiring with a 6v battery pack because if you wire it incorrectly it will short circuit and blow it out. My favorite part of this assignment was when I first set up the motor without being able to control the speed it started going really fast and it scared half the class. My least favorite part of this assignment was getting the potentiometer to link up with the speed of the motor and being able to adjust it to change the speed/direction.
+
 ## Onshape_Assignment_The_Hanger
 
 ### Assignment Description
