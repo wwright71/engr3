@@ -290,13 +290,14 @@ motor = pwmio.PWMOut(board.D3)
 while True:
 
     print(potentiometer.value)      # Display value
-    time.sleep(0.25)                   # Wait a bit before checking all againng all again
+    time.sleep(0.25)                   # Wait a bit before checking all again
     motor.duty_cycle = potentiometer.value
 
 ```
 
 ### Evidence
-![ezgif com-video-to-gif (3)]([https://github.com/wwright71/engr3/blob/main/ezgif.com-video-to-gif%20(1).gif?raw=true](https://im.ezgif.com/tmp/ezgif-1-8104bb850d.gif)
+![ezgif com-video-to-gif (2)](https://github.com/wwright71/engr3/assets/143732572/cf7467b3-c4ce-4a99-bf5c-53ded6fd28f8)
+
 ### Wiring
 ![image](https://github.com/wwright71/engr3/assets/143732572/9b7db0c1-933b-46a8-980f-6a787dee25f7)
 
