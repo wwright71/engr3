@@ -298,7 +298,7 @@ while True:
 ### Evidence
 ![ezgif com-video-to-gif (3)]([https://github.com/wwright71/engr3/blob/main/ezgif.com-video-to-gif%20(1).gif?raw=true](https://im.ezgif.com/tmp/ezgif-1-8104bb850d.gif)
 ### Wiring
-![image]([https://github.com/wwright71/engr3/assets/143732572/c0f8364a-3fe6-4d4d-8f27-97105b53e2a5](https://github.com/wwright71/engr3/blob/main/motor_cntrl.png?raw=true)https://github.com/wwright71/engr3/blob/main/motor_cntrl.png?raw=true)
+![image](https://github.com/wwright71/engr3/assets/143732572/9b7db0c1-933b-46a8-980f-6a787dee25f7)
 
 ### Reflection
 
