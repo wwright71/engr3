@@ -330,15 +330,15 @@ Overall, this assignment was very simple, it only had one image and it was compl
 
 ### Assignment Description
 
-1. Open this workspaceLinks to an external site., make a copy for yourself, and replace the word "copy" in the title with your name.
-   
-2. The first two tabs contain instructions, and the last four contain the drawings you will use to create the part.
-   
-3. Create a new part studio and rename it "swing arm."
-   
-4. Design the part using the four drawings as a guide. Notice that the three dimensions are not defined directly. These dimensions will change values, so it is a good idea to define them as variables so that you can easily change them later.
-   
-5. Update the model based on the dimensions and materials listed in the instructions step 2 tab of your Swing Arm -- Just Drawings document.
+1. Make a copy of the assignment and rename it with your name
+
+2. The first 2 slides are instructions and the last 2 are for you to work on
+
+3. Create a new part and rename it to "swing arm
+
+4. Design the part using the drawings and define variables that they can change depending on the assignment
+
+5. Update model based off of the question asked and submit the mass
 
 ### Evidence
 
