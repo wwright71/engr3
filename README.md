@@ -374,11 +374,13 @@ You should be able to complete this assignment in 1 hour.
 ![image](https://github.com/hotting45/engr3/assets/143732418/3bd0524f-8284-4b27-b977-37d00626baf0)
 ![image](https://github.com/hotting45/engr3/assets/143732418/cb09068e-812b-4fdc-8a71-39f1a88ee934)
 Credit to Henry Ottinger because my pictures wouldn't work
+
 ### Part Link 
 
 (https://cvilleschools.onshape.com/documents/4e36acb62dc45aa02786041a/w/e64ad7152e355b89b94c1132/e/fa7f75331ca38b3800fb7080)
 
 ### Reflection
 
+I learned how to use multiple images to create one complex piece using multiple different parts. Some things that others should know while making this assignment are to create variables, make sure to set extrudes to "add" or "new" depending on if you need to make a new part or add on to an old one, and make sure to select the part you're adding on to if you are adding on to a new part. Lastly, make sure constriants are set to where they're supposed to be and not equal to a specific number.
 &nbsp;
 
