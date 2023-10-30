@@ -382,33 +382,3 @@ Credit to Henry Ottinger because my pictures wouldn't work
 
 &nbsp;
 
-
-## Onshape_Assignment_Swing_Arm
-
-### Assignment Description
-
-1. Open this workspaceLinks to an external site., make a copy for yourself, and replace the word "copy" in the title with your name.
-   
-2. The first two tabs contain instructions, and the last four contain the drawings you will use to create the part.
-   
-3. Create a new part studio and rename it "swing arm."
-   
-4. Design the part using the four drawings as a guide. Notice that the three dimensions are not defined directly. These dimensions will change values, so it is a good idea to define them as variables so that you can easily change them later.
-   
-5. Update the model based on the dimensions and materials listed in the instructions step 2 tab of your Swing Arm -- Just Drawings document.
-
-### Evidence
-
-![image](https://github.com/wwright71/engr3/assets/143732572/5fc89ba5-5c37-4532-af4a-33b297ff9165)
-![image](https://github.com/wwright71/engr3/assets/143732572/61d93ad7-c0d7-45a6-953d-2100b1cf6372)
-![image](https://github.com/wwright71/engr3/assets/143732572/43861d25-1d11-490e-9fce-89114fe68477)
-![image](https://github.com/wwright71/engr3/assets/143732572/9431501c-67e1-4158-83d6-0356b8a10624)
-
-### Part Link 
-
-https://cvilleschools.onshape.com/documents/ac4b93d873400ee95a17c509/w/fe7c10129bcfea8a546af52d/e/7f25961cc17f1d8061031a8f
-
-### Reflection
-Overall, before I started this assignment I was very scared because it looked quite complex, but once I got started and set up my variables the assignment wasn't very difficult. Things I do want to look back on were to make sure and check each picture and all the measurements twice because I did mix up a measurement where I was supposed to put a variable. Another thing that you need to do is make sure your material is set to the correct thing and it correlates to the assignment.
-&nbsp;
-
