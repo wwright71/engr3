@@ -359,15 +359,13 @@ Overall, before I started this assignment I was very scared because it looked qu
 
 ### Assignment Description
 
-1. Make a copy of this document.
-   
-2. Rename and replace the copy with your name.
-   
-3. Create all of the parts needed for the assembly.  The cylinder is given as a starting point.
- 
-4. Answer the 4 questions below.  There is a question about the initial assembly and then one for each of the three revisions to the product.
+1. Make a copy of the document
 
-You should be able to complete this assignment in 1 hour.
+2. Rename it with your name
+
+3. Create all parts needed and assemble
+
+4. You should be able to do this in 1 hour
 
 ### Evidence
 
