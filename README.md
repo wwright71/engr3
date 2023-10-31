@@ -379,6 +379,34 @@ Credit to Henry Ottinger because my pictures wouldn't work
 
 ### Reflection
 
-I learned how to use multiple images to create one complex piece using multiple different parts. Some things that others should know while making this assignment are to create variables, make sure to set extrudes to "add" or "new" depending on if you need to make a new part or add on to an old one, and make sure to select the part you're adding on to if you are adding on to a new part. Lastly, make sure constriants are set to where they're supposed to be and not equal to a specific number.
+I learned how to use multiple images to create one complex piece using multiple different parts. Some things that others should know while making this assignment are to create variables, make sure to set extrudes to "add" or "new" depending on if you need to make a new part or add on to an old one, and make sure to select the part you're adding on to if you are adding on to a new part. Lastly, make sure constraints are set to where they're supposed to be and not equal to a specific number.
+&nbsp;
+
+## Onshape_Assignment_Single_Part
+
+### Assignment Description
+
+1. Open the Document and make a copy
+
+2. Follow instructions for each question and adjust each measurement
+
+3. Record measurements and mass while answering questions
+
+4. Enter mass in questions and SUBMIT!
+   
+### Evidence
+
+![image](https://github.com/wwright71/engr3/assets/143732572/f4cef4c9-f652-4adb-987d-b30cf53b57b8)
+![image](https://github.com/wwright71/engr3/assets/143732572/e5c1b08d-e732-4530-964f-28978595d08f)
+![image](https://github.com/wwright71/engr3/assets/143732572/73a19c6c-a265-4515-ab82-617e1d074d7c)
+
+### Part Link 
+
+(https://cvilleschools.onshape.com/documents/7d26552196fee86ea06089da/w/c958bbc6fe884ff7775a4628/e/7e7e4d82e081317643a46f52)
+
+### Reflection
+
+What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+
 &nbsp;
 
