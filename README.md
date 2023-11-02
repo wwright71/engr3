@@ -405,8 +405,7 @@ I learned how to use multiple images to create one complex piece using multiple 
 (https://cvilleschools.onshape.com/documents/7d26552196fee86ea06089da/w/c958bbc6fe884ff7775a4628/e/7e7e4d82e081317643a46f52)
 
 ### Reflection
-
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+I completed this assignment pretty quickly and I would say I didn't specifically learn anything but it was a good test to see how fast I could complete an assignment which was quite useful for me. Something that could help other students is when you have a shape that is symmetrical you can make one half of the shape and then mirror it over later for an easier time. Something I learned how to do during this assignment was to increase my skill in creating a piece from a blueprint in a limited time quickly.
 
 &nbsp;
 
