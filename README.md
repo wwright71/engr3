@@ -436,3 +436,30 @@ This assignment was overall very easy and was completed very fast. I had no issu
 
 &nbsp;
 
+## Onshape_Assignment_Multipart
+
+### Assignment Description
+
+1. Open and copy the document
+
+2. Follow instructions for each question asked
+
+3. After finishing the part, submit the mass to canvas
+
+4. Submit the quiz
+   
+### Evidence
+
+![image](https://github.com/wwright71/engr3/assets/143732572/5209b029-48f7-4da9-b245-7cf33236b19f)
+![image](https://github.com/wwright71/engr3/assets/143732572/a3394e53-ed1f-4924-9b6c-a0961c08b57f)
+![image](https://github.com/wwright71/engr3/assets/143732572/0d7c6106-de85-433f-b39d-6f17604eb0d9)
+![image](https://github.com/wwright71/engr3/assets/143732572/ccb09917-8bd7-46e2-9d41-dcc204184d4b)
+
+### Part Link 
+
+(https://cvilleschools.onshape.com/documents/085529258c83be1f3c0ec0ff/w/6298bff7abde40b9328b0d3a/e/734f698ec62c0bf367cb75b3)
+
+### Reflection
+During this assignment, I learned that the bolt at the top was not defined by anything except for the fillet and that I need to pay more attention to what or what not is defined. Other students would find the fillet tool very helpful especially for making those curved edges on this assignment. Overall, this assignment was pretty simple to construct and I was able to complete it with minimal difficulty. 
+&nbsp;
+
