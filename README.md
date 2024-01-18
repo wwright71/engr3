@@ -533,20 +533,11 @@ while True:
 
 
 
-
-
 ### Wiring
-
+![image](https://github.com/wwright71/engr3/assets/143732572/5004adef-d614-4104-99fa-f9543e0774cc)
 
 
 
 ### Reflection
-I had a lot of trouble making my code and wiring, Searching online really helped me when I was stuck, especially with finding code.
-
-(https://learn.adafruit.com/multi-tasking-with-circuitpython/buttons)
-
-^ Link to a site I found helpful for coding ^
-
-I also used https://ezgif.com/video-to-gif/ezgif-4-736f9f4571.mp4 to create gifs for this assignment which was very helpful for making my engineering notebook.
 
 
