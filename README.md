@@ -463,3 +463,90 @@ This assignment was overall very easy and was completed very fast. I had no issu
 During this assignment, I learned that the bolt at the top was not defined by anything except for the fillet and that I need to pay more attention to what or what not is defined. Other students would find the fillet tool very helpful especially for making those curved edges on this assignment. Overall, this assignment was pretty simple to construct and I was able to complete it with minimal difficulty. 
 &nbsp;
 
+## Rotary Encoder
+
+### Description & Code
+
+1. Get materials from the labs in the back
+
+2. Create the wiring and test it with the serial monitor
+
+3. Set up LCD screen and check if its working
+
+4. Translate all code over to print on the LCD
+
+5. Set up led on board to match the menu on the LCD screen
+
+```python
+import rotaryio
+import board
+import neopixel
+import digitalio
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+
+enc = rotaryio.IncrementalEncoder(board.D4, board.D3, divisor = 2)
+
+lcd = LCD(I2CPCF8574Interface(board.I2C(), 0x27), num_rows = 2, num_cols = 16)
+
+led = neopixel.NeoPixel(board.NEOPIXEL, 1)
+led.brightness = 0.3
+led[0] = (255, 0, 0)
+
+button = digitalio.DigitalInOut(board.D2)
+button.direction = digitalio.Direction.INPUT
+button.pull = digitalio.Pull.UP
+button_state = None  
+
+menu_index = 0
+
+ 
+while True:
+    menu_index = enc.position
+    menu = ["stop", "caution", "go"]
+    last_index = None
+    menu[0] = "stop"
+    menu[1] = "caution"
+    menu[2] = "go"  
+    menu_index_lcd = menu_index % 3
+    lcd.set_cursor_pos(0,0)
+    lcd.print("Push for: ")
+    lcd.set_cursor_pos(1,0)
+    lcd.print ("           ")
+    lcd.set_cursor_pos(1,0)
+    lcd.print(menu[menu_index_lcd])
+    print(menu_index_lcd)
+    if not button.value and button_state is None:
+        button_state = "pressed"
+    if button.value and button_state == "pressed":
+        print("Button is pressed")
+        button_state = None
+    if menu_index_lcd == 0:
+        led[0] = (255, 0, 0)
+    if menu_index_lcd == 2:
+        led[0] = (0, 255, 0)
+    if menu_index_lcd == 1:
+        led[0] = (255, 255, 0)
+```
+
+### Evidence
+
+
+
+
+
+### Wiring
+
+
+
+
+### Reflection
+I had a lot of trouble making my code and wiring, Searching online really helped me when I was stuck, especially with finding code.
+
+(https://learn.adafruit.com/multi-tasking-with-circuitpython/buttons)
+
+^ Link to a site I found helpful for coding ^
+
+I also used https://ezgif.com/video-to-gif/ezgif-4-736f9f4571.mp4 to create gifs for this assignment which was very helpful for making my engineering notebook.
+
+
