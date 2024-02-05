@@ -540,4 +540,49 @@ https://im5.ezgif.com/tmp/ezgif-5-f016b3766d.gif
 
 ### Reflection
 
+## IR Sensor
+
+### Description & Code
+
+1. Download neopixel libraries if not already downloaded
+
+2. Wire up the IR sensor to metro m4 using the neopixel, ground, any D pin, and 5v
+
+3. Code in the IR sensor to print into the monitor, then check if it runs
+
+4. Set up the IR sensor so it changes the color of the LED when active vs not active
+
+```
+import board
+import neopixel
+import digitalio
+
+ir_sensor = digitalio.DigitalInOut(board.D2)
+ir_sensor.direction = digitalio.Direction.INPUT
+ir_sensor.pull = digitalio.Pull.UP
+
+led = neopixel.NeoPixel(board.NEOPIXEL, 1)
+led.brightness = 0.3
+led[0] = (255,0,0)
+
+while True:
+    if ir_sensor.value == 1:
+        print("Sensor is LOW")
+        led[0] = (255, 0, 0)
+
+    if ir_sensor.value == 0:
+        print("Sensor is HIGH")
+        led[0] = (0, 255, 0)
+```
+
+### Evidence
+
+
+### Wiring
+
+
+
+### Reflection
+
+
 
