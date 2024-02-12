@@ -576,13 +576,16 @@ while True:
 ```
 
 ### Evidence
+![WIN_20240212_11_30_24_Pro-ezgif com-optimize (1)](https://github.com/wwright71/engr3/assets/143732572/df415300-c7f2-46d8-b575-d9bcb2089db0)
+
 
 
 ### Wiring
+![image](https://github.com/wwright71/engr3/assets/143732572/a6b43bf9-d0d7-45d8-8053-8649ce656381)
 
 
 
 ### Reflection
-
+MAKE SURE TO CHECK YOUR WIRING BECAUSE I DIDN'T KNOW THE PINS STARTED AT 0 AND NOT 1 SO I WAS VERY LOST AS TO WHY IT WAS NOT WORKING UNTIL I REALIZED IT WAS OFF BY ONE PIN BECAUSE I THOUGHT IT WAS PLUGGED INTO 1 AND NOT 2.
 
 
