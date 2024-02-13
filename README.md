@@ -539,7 +539,7 @@ https://im5.ezgif.com/tmp/ezgif-5-f016b3766d.gif
 
 
 ### Reflection
-
+Creating a menu was a little difficult because it had been a while since I had made one, but using my vast knowledge combined with the power of Google, I would win. I recommend when doing something you haven't done in a while, use the beautiful creation of Google just as I did, it is a lot more useful than you think. Also it is Mr. Miller approved.
 ## IR Sensor
 
 ### Description & Code
