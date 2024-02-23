@@ -583,9 +583,31 @@ while True:
 ### Wiring
 ![image](https://github.com/wwright71/engr3/assets/143732572/a6b43bf9-d0d7-45d8-8053-8649ce656381)
 
-
+&nbsp;
 
 ### Reflection
 MAKE SURE TO CHECK YOUR WIRING BECAUSE I DIDN'T KNOW THE PINS STARTED AT 0 AND NOT 1 SO I WAS VERY LOST AS TO WHY IT WAS NOT WORKING UNTIL I REALIZED IT WAS OFF BY ONE PIN BECAUSE I THOUGHT IT WAS PLUGGED INTO 1 AND NOT 2.
 
+## Onshape_Assignment_Robot_Claw
 
+### Assignment Description
+
+1. Create a design for a robot claw on Onshape using the following requirements:
+           Must close using one actuator
+           Must be able to fully close
+           Must be able to be printed and laser cut
+           Must be fully fastened through Onshape
+   
+### Evidence
+
+![image](https://github.com/wwright71/engr3/assets/143732572/579e1726-369b-4cd4-b779-faf4e185ff51)
+![image](https://github.com/wwright71/engr3/assets/143732572/9c6ccd17-6287-42d4-9a57-9dd4b9825e75)
+
+### Part Link 
+
+(https://cvilleschools.onshape.com/documents/10b9a3a559efe6ee7fe9565c/w/8ea7c6795f75a829aa8b4936/e/718fa5047b23684c752667af)
+
+### Reflection
+This assignment was overall very easy and was completed very fast. I had no issues with this part since it was very small and not complex. I recommend that others remember to set the material and make sure to check your chamfers. 
+
+&nbsp;
