@@ -600,14 +600,15 @@ MAKE SURE TO CHECK YOUR WIRING BECAUSE I DIDN'T KNOW THE PINS STARTED AT 0 AND N
    
 ### Evidence
 
-![image](https://github.com/wwright71/engr3/assets/143732572/579e1726-369b-4cd4-b779-faf4e185ff51)
-![image](https://github.com/wwright71/engr3/assets/143732572/9c6ccd17-6287-42d4-9a57-9dd4b9825e75)
+![image](https://github.com/wwright71/engr3/assets/143732572/6483b163-b668-4d97-aa72-b92f1712e45b)
+![image](https://github.com/wwright71/engr3/assets/143732572/b2cb6966-b1da-44f1-b2b7-b420c55dedb8)
+![image](https://github.com/wwright71/engr3/assets/143732572/986cb5b6-5b56-4677-b2c1-0b91528a3420)
 
 ### Part Link 
 
-(https://cvilleschools.onshape.com/documents/10b9a3a559efe6ee7fe9565c/w/8ea7c6795f75a829aa8b4936/e/718fa5047b23684c752667af)
+https://cvilleschools.onshape.com/documents/a407a953e0de07ab89e63153/w/99b41ad0450fa2a2bc45e323/e/1d4bab6124a929e8dda980fa
 
 ### Reflection
-This assignment was overall very easy and was completed very fast. I had no issues with this part since it was very small and not complex. I recommend that others remember to set the material and make sure to check your chamfers. 
+Make sure to check all of your parts are aligned correctly with each other, I, unfortunately, did not do this and was stuck trying to fix all of my Revolute mates that were breaking whenever I tried to connect multiple parts. In conclusion, check all of the lengths and widths of your parts to make sure they match before trying to Revolute mate them together. 
 
 &nbsp;
