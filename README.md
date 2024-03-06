@@ -612,3 +612,59 @@ https://cvilleschools.onshape.com/documents/a407a953e0de07ab89e63153/w/99b41ad04
 Make sure to check all of your parts are aligned correctly with each other, I, unfortunately, did not do this and was stuck trying to fix all of my Revolute mates that were breaking whenever I tried to connect multiple parts. In conclusion, check all of the lengths and widths of your parts to make sure they match before trying to Revolute mate them together. 
 
 &nbsp;
+
+## Photointerruptor
+
+### Description & Code
+
+1. Wire up a photointerruptor and LCD screen to an Arduino
+
+2. Write Python code to make the LCD screen print the amount of interrupts that have occurred and constantly update
+ 
+
+```python
+import time 
+import digitalio
+import board
+from lcd.lcd import LCD
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+
+photointerrupter = digitalio.DigitalInOut(board.D2)
+photointerrupter.direction = digitalio.Direction.INPUT
+photointerrupter.pull = digitalio.Pull.UP
+photointerrupter_state = None
+
+interrupt_counter = 0
+lcd = LCD(I2CPCF8574Interface(board.I2C(), 0x27), num_rows=2, num_cols=16)
+lcd.set_cursor_pos(0,0)
+lcd.print("Interrupt count:") 
+now = time.monotonic()
+
+while True: 
+    print(interrupt_counter)
+    #print(photointerrupter_state)
+    #print(photointerrupter.value)
+    if not photointerrupter.value and photointerrupter_state is None:
+        photointerrupter_state = "Interrupted"
+       
+    if (photointerrupter.value == True) and (photointerrupter_state == "Interrupted"):
+        photointerrupter_state = None
+        print("Interrupted")
+        interrupt_counter = interrupt_counter +1
+    if (now + 0.003) < time.monotonic(): 
+        now = time.monotonic()
+        lcd.set_cursor_pos(1,0)
+        lcd.print(str(interrupt_counter))
+
+```
+
+### Evidence
+![WIN_20240306_12_14_42_Pro-ezgif com-video-to-gif-converter (1)](https://github.com/wwright71/engr3/assets/143732572/7f264a3b-6a99-4001-976f-e9881ae49f19)
+
+
+### Wiring
+![image](https://github.com/wwright71/engr3/assets/143732572/06816126-25e7-441b-a860-155a5ee8da1e)
+
+
+### Reflection
+When in doubt of why is the lcd.print not printing your interrupt_counter ask Mr. Miller and watch as you lead you on a wild goose chase in your code for something you do not have and have never used. Also if you feel as if you are missing certain lines of code you can always go to the end of the slideshow and there will be a link to an example code with missing sections.
