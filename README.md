@@ -668,3 +668,7 @@ while True:
 
 ### Reflection
 When in doubt of why is the lcd.print not printing your interrupt_counter ask Mr. Miller and watch as you lead you on a wild goose chase in your code for something you do not have and have never used. Also if you feel as if you are missing certain lines of code you can always go to the end of the slideshow and there will be a link to an example code with missing sections.
+
+
+### Design Goal
+This project will be a robot arm that is designed to pick up cubes of different colors and stack them in specific orders depending on what is wanted. We will begin with designing the parts on Onshape, then printing them and assembling them. After assembly, we will begin working on the coding portion of the project, making the arm move with servos/motors and allowing the arm to see colors using IR sensors. After creating the code that will make the arm move, we will create a system that combines the two codes and will move the cubes depending on their color. Finally, we will make the arm move the cubes to and from other cubes' positions and colors and stack or unstack multiple cubes. We believe this assignment is appropriately ambitious because it uses many components and requires complex coding and system designing.
