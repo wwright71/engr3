@@ -676,23 +676,33 @@ This project will be a robot arm that is designed to pick up cubes of different 
 ### Schedule
 Week 1
 - Planning, Drawing, Coming up with Designs (Both of us)
+  
 Week 2
 - Planning, Drawing, Coming up with Designs (Both of us)
+  
 Week 3
 - CAD, Digital Design, Prototyping (Liam, Will assisting)
+  
 Week 4
 - Prototyping Code (Will, Liam assisting)
+  
 Week 5
 - Moving into more detail/finalization (CAD and Code) (Both)
+  
 Week 6
 - Moving into more detail/finalization (CAD and Code) (Both)
+  
 Week 7
 - Adjustments for printing and after printing and coding (Both)
+  
 Week 8
 - Reprinting (if needed) (Both)
+  
 Week 9
 - Assembly, finetuning (Both)
+  
 Week 10
 - Testing and most likely more finetuning/Documentation (Both)
+  
 Week 11
 - Final design complete and operating/Documentation (Both)
