@@ -672,3 +672,27 @@ When in doubt of why is the lcd.print not printing your interrupt_counter ask Mr
 
 ### Design Goal
 This project will be a robot arm that is designed to pick up cubes of different colors and stack them in specific orders depending on what is wanted. We will begin with designing the parts on Onshape, then printing them and assembling them. After assembly, we will begin working on the coding portion of the project, making the arm move with servos/motors and allowing the arm to see colors using IR sensors. After creating the code that will make the arm move, we will create a system that combines the two codes and will move the cubes depending on their color. Finally, we will make the arm move the cubes to and from other cubes' positions and colors and stack or unstack multiple cubes. We believe this assignment is appropriately ambitious because it uses many components and requires complex coding and system designing.
+
+### Schedule
+Week 1
+- Planning, Drawing, Coming up with Designs (Both of us)
+Week 2
+- Planning, Drawing, Coming up with Designs (Both of us)
+Week 3
+- CAD, Digital Design, Prototyping (Liam, Will assisting)
+Week 4
+- Prototyping Code (Will, Liam assisting)
+Week 5
+- Moving into more detail/finalization (CAD and Code) (Both)
+Week 6
+- Moving into more detail/finalization (CAD and Code) (Both)
+Week 7
+- Adjustments for printing and after printing and coding (Both)
+Week 8
+- Reprinting (if needed) (Both)
+Week 9
+- Assembly, finetuning (Both)
+Week 10
+- Testing and most likely more finetuning/Documentation (Both)
+Week 11
+- Final design complete and operating/Documentation (Both)
