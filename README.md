@@ -674,6 +674,28 @@ ________________________________________________________________________________
 ## Design Goal for Color Coding Crane
 This project will be a robot arm that is designed to pick up cubes of different colors and stack them in specific orders depending on what is wanted. We will begin with designing the parts on Onshape, then printing them and assembling them. After assembly, we will begin working on the coding portion of the project, making the arm move with servos/motors and allowing the arm to see colors using IR sensors. After creating the code that will make the arm move, we will create a system that combines the two codes and will move the cubes depending on their color. Finally, we will make the arm move the cubes to and from other cubes' positions and colors and stack or unstack multiple cubes. We believe this assignment is appropriately ambitious because it uses many components and requires complex coding and system design.
 
+### Material List
+- PLA
+ 
+- Acrylic
+ 
+- Nuts
+ 
+- Bolts
+ 
+- Screws
+ 
+- Arduino
+ 
+- Battery pack/Batteries
+ 
+- Servo motors
+  
+- Wires
+
+- Breadboard/Prototyping shield 
+
+
 ### Schedule
 Week 1
 - Planning, Drawing, Coming up with Designs (Both of us)
@@ -707,3 +729,5 @@ Week 10
   
 Week 11
 - Final design complete and operating/Documentation (Both)
+
+
