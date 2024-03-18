@@ -730,4 +730,10 @@ Week 10
 Week 11
 - Final design complete and operating/Documentation (Both)
 
+### Drawing Designs 
+Image 1:
+![imagedos (1)](https://github.com/wwright71/engr3/assets/143732572/eb32e775-bdad-490a-ad3d-f8fcc9cf8375)
+
+Image 2:
+![imageuno (1)](https://github.com/wwright71/engr3/assets/143732572/a05a6d63-d6f0-4c1a-8b13-70de7982953f)
 
