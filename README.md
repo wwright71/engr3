@@ -530,7 +530,8 @@ while True:
 ```
 
 ### Evidence
-https://im5.ezgif.com/tmp/ezgif-5-f016b3766d.gif
+![image](https://github.com/wwright71/engr3/assets/143732572/4918f0b7-f0a5-444e-8272-66990a590536)
+
 
 
 ### Wiring
