@@ -670,6 +670,33 @@ while True:
 ### Reflection
 When in doubt of why is the lcd.print not printing your interrupt_counter ask Mr. Miller and watch as you lead you on a wild goose chase in your code for something you do not have and have never used. Also if you feel as if you are missing certain lines of code you can always go to the end of the slideshow and there will be a link to an example code with missing sections.
 
+
+## Onshape_Assignment_Vice_Grip
+
+### Assignment Description
+1. Open the document using the link
+   
+2. Follow the instructions for each task
+   
+3. Record your answers from the instructions provided
+   
+4. Enter responses into the quiz on canvas
+
+   
+### Evidence
+![image](https://github.com/wwright71/engr3/assets/143732572/a0ceb8f9-ad52-43b6-b74a-11cb7b267fa7)
+![image](https://github.com/wwright71/engr3/assets/143732572/07ed8fac-b7d4-4621-9d51-b11c8af2dde3)
+![image](https://github.com/wwright71/engr3/assets/143732572/1fe03acd-ee01-413c-8e81-e14ab028d228)
+![image](https://github.com/wwright71/engr3/assets/143732572/d5152564-a965-4e78-8fdd-b451e0aec0f5)
+
+### Part Link 
+https://cvilleschools.onshape.com/documents/773ff91d9c92aec15cca1527/w/4be18978e9ae7bd1df2252db/e/d82132eb015a7329649108a8
+
+
+### Reflection
+Overall, this assignment was quite simple to construct; the pieces were already provided and the only real work that had to be done was fitting them together using fasten and revolve mates. I'd say personally the easiest part of the assignment was fitting together the regular fasten mates because the pieces fit very well together and were very simple to find. On the other hand, the revolve mates were not as simple and required some adjustments in order to be placed correctly.
+&nbsp;
+
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 ## Design Goal for Color Coding Crane
