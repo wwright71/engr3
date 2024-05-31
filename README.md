@@ -767,6 +767,7 @@ Image 2:
 
 ### Code
 
+```python
 import time
 import board
 import pwmio
@@ -924,4 +925,4 @@ while True:
             my_servo2.angle = angle + 5
             if angle > 180:
                 angle = 180 
-
+```
