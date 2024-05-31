@@ -783,7 +783,7 @@ from adafruit_simplemath import map_range
 DELAY = 0.01   # Sets the delay time for in-between each step of the stepper motor.
 STEPS = 100    # Sets the number of steps. 100 is half a full rotation for the motor we're using. 
 
-# Set up the digital pins used for the four wires of the stepper motor. 
+ 
 coils = (
     digitalio.DigitalInOut(board.D9),   # A1
     digitalio.DigitalInOut(board.D10),  # A2
@@ -798,14 +798,13 @@ coils2 = (
 )
 
 
-# Sets each of the digital pins as an output.
+
 for coil in coils:
     coil.direction = digitalio.Direction.OUTPUT
 for coil2 in coils2:
     coil2.direction = digitalio.Direction.OUTPUT
 
 
-# Creates an instance of the stepper motor so you can send commands to it (using the Adafruit Motor library). 
 motor = stepper.StepperMotor(coils[0], coils[1], coils[2], coils[3], microsteps=None)
 motor2 = stepper.StepperMotor(coils2[0], coils2[1], coils2[2], coils2[3], microsteps=None)
 
@@ -836,11 +835,10 @@ button5.direction = digitalio.Direction.INPUT
 button5.pull = digitalio.Pull.UP
 
 
-# create a PWMOut object on Pin A2.
 pwm = pwmio.PWMOut(board.D13, duty_cycle=2 ** 15, frequency=50)
 pwm2 = pwmio.PWMOut(board.D8, duty_cycle=2 ** 15, frequency=50)
 
-# Create a servo object, my_servo.
+
 my_servo1 = servo.Servo(pwm)
 my_servo2 = servo.Servo(pwm2)
 
