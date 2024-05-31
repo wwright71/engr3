@@ -765,3 +765,165 @@ Image 1:
 Image 2:
 ![imageuno (1)](https://github.com/wwright71/engr3/assets/143732572/a05a6d63-d6f0-4c1a-8b13-70de7982953f)
 
+### Code
+
+import time
+import board
+import pwmio
+from digitalio import DigitalInOut, Direction, Pull
+from adafruit_motor import servo
+import asyncio
+import keypad
+import digitalio
+from adafruit_motor import stepper
+from analogio import AnalogIn
+from adafruit_simplemath import map_range
+
+
+DELAY = 0.01   # Sets the delay time for in-between each step of the stepper motor.
+STEPS = 100    # Sets the number of steps. 100 is half a full rotation for the motor we're using. 
+
+# Set up the digital pins used for the four wires of the stepper motor. 
+coils = (
+    digitalio.DigitalInOut(board.D9),   # A1
+    digitalio.DigitalInOut(board.D10),  # A2
+    digitalio.DigitalInOut(board.D11),  # B1
+    digitalio.DigitalInOut(board.D12),  # B2
+)
+coils2 = (
+    digitalio.DigitalInOut(board.D0), #A1
+    digitalio.DigitalInOut(board.D1), #A2
+    digitalio.DigitalInOut(board.D8), #B1
+    digitalio.DigitalInOut(board.D7), #B2
+)
+
+
+# Sets each of the digital pins as an output.
+for coil in coils:
+    coil.direction = digitalio.Direction.OUTPUT
+for coil2 in coils2:
+    coil2.direction = digitalio.Direction.OUTPUT
+
+
+# Creates an instance of the stepper motor so you can send commands to it (using the Adafruit Motor library). 
+motor = stepper.StepperMotor(coils[0], coils[1], coils[2], coils[3], microsteps=None)
+motor2 = stepper.StepperMotor(coils2[0], coils2[1], coils2[2], coils2[3], microsteps=None)
+
+
+
+style=stepper.DOUBLE
+
+potentiometer = AnalogIn(board.A2)  # potentiometer connected to A1, power & ground
+
+button1 = digitalio.DigitalInOut(board.D2)
+button1.direction = digitalio.Direction.INPUT
+button1.pull = digitalio.Pull.UP
+
+button2 = digitalio.DigitalInOut(board.D3)
+button2.direction = digitalio.Direction.INPUT
+button2.pull = digitalio.Pull.UP
+  
+button3 = digitalio.DigitalInOut(board.D4)
+button3.direction = digitalio.Direction.INPUT
+button3.pull = digitalio.Pull.UP
+ 
+button4 = digitalio.DigitalInOut(board.D5)
+button4.direction = digitalio.Direction.INPUT
+button4.pull = digitalio.Pull.UP
+                        
+button5 = digitalio.DigitalInOut(board.D6)
+button5.direction = digitalio.Direction.INPUT
+button5.pull = digitalio.Pull.UP
+
+
+# create a PWMOut object on Pin A2.
+pwm = pwmio.PWMOut(board.D13, duty_cycle=2 ** 15, frequency=50)
+pwm2 = pwmio.PWMOut(board.D8, duty_cycle=2 ** 15, frequency=50)
+
+# Create a servo object, my_servo.
+my_servo1 = servo.Servo(pwm)
+my_servo2 = servo.Servo(pwm2)
+
+new_min = 0
+new_max = 127
+analog_in = AnalogIn(board.A1)
+angle = 0
+
+print("hi")
+print(button1.value)
+
+for step in range(STEPS):
+    motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
+    time.sleep(DELAY)
+
+while True:
+        #print("hi")
+        #print(angle)
+        print(button1.value)
+        print(button2.value)
+        print(button3.value)
+        print(button4.value)
+        
+        remapped_value = int(map_range(analog_in.value, 0, 65520, new_min, new_max))
+        #print("Raw:", analog_in.value, "Remapped value:", remapped_value)
+
+        if button1.value == False:
+            print("button1")
+            for step in range(STEPS):
+                motor2.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
+                time.sleep(DELAY)
+    
+    
+  
+        if button2.value == False:
+            print("button2")
+            for step in range(STEPS):
+                motor2.onestep(style=stepper.DOUBLE)
+                time.sleep(DELAY)
+            
+
+        
+        if button3.value == False:
+            print("button3")
+            for step in range(STEPS):
+                motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
+                time.sleep(DELAY)
+            
+            
+
+        
+        if button4.value == False:
+            print("button4")
+            for step in range(STEPS):
+                motor.onestep(style=stepper.DOUBLE)
+                time.sleep(DELAY)
+            
+               
+            
+        if button5.value == False: #This is the claw opening and closing when a button is pushed
+            angle = angle + 5
+            if angle > 180:
+                angle = 180
+            my_servo1.angle = angle 
+            
+        else:
+            angle = angle - 5
+            if angle < 0:
+                angle = 0
+            my_servo1.angle = angle
+        
+
+    
+
+        if potentiometer.value >=  0:
+            my_servo2.angle = angle - 5
+            if angle < 0:
+                angle = 0
+            
+            
+
+        if potentiometer.value <=  127:
+            my_servo2.angle = angle + 5
+            if angle > 180:
+                angle = 180 
+
